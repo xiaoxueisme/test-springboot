@@ -16,6 +16,6 @@ public class HelloController {
     @RequestMapping(value = "/hello",method = RequestMethod.GET)
     @ResponseBody
     public String sayHello() {
-        return "V2测试开发情况Hello Spring Boot";
+        return "V2分支合并到master Spring Boot";
     }
 }
